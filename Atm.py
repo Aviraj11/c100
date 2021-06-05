@@ -16,6 +16,8 @@ class Atm():
         print("Cash Deposited Successfully.")
     
     def balanceEnquiry(self):
+        card = input("Enter your Card Number here.")
+        pin = input("Enter your Pin Number here.")
         print("Balance Enquired Successfully.")
 
 Aviraj = Atm(123,456)
